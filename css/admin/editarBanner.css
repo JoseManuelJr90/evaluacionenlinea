@@ -1,0 +1,33 @@
+*{
+    top:0;
+    left:0;
+}
+
+
+body{
+    font-family:'Bitter', serif;
+}
+
+.imagen_banner{
+    max-height: 270px;
+}
+
+
+.btn_agregar {
+    width: fit-content;
+    transition: 0.3s;
+    margin: -20px auto 50px ;
+}
+.btn_agregar a{
+    text-decoration: none;
+    border: none;
+    font-size: 27px;
+    color: #274f8b;
+    text-shadow: 5px 5px 10px rgb(107, 138, 167);
+    transition: 0.3s;
+}
+
+.btn_agregar a:hover{
+    font-size: 30px;
+    color:black ;
+}

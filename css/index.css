@@ -1,0 +1,86 @@
+
+body{
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.content_banner{
+    color: #ffff;
+    background-image: url(../img/encabezado.jpg);
+    min-height: 500px;
+    height: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 125px;
+}
+
+.content_banner::before{
+    position: absolute;
+    content:'';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(57,49,49,0.5);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.content_banner .banner_titulo{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    position: relative;
+    z-index: 2;
+    margin: 0px 0px 12px;
+    animation: aparicionTexto 2s ;
+
+}
+
+.content_banner .banner_desc{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0;
+    position: relative;
+    z-index: 2;
+    animation: aparicionTexto 2s ;
+
+}
+
+@keyframes aparicionTexto {
+    0%{
+        top: 30px
+    }
+
+    100%{
+        top: 0px;
+    }
+    
+}
+
+.content_banner .banner_btn{
+    text-decoration: none;
+    padding: 0 34px;
+    z-index: 2;
+    margin: 30px auto 25px;
+    line-height: 56px;
+    position: relative;
+    border-radius: 20px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #d31c1c;
+    display: inline-block;
+    color: gray;
+    transition: 0.4s;
+    text-align: center;
+}
+
+
+.content_banner .banner_btn:hover{
+    text-decoration: none;
+    background-color: rgb(248, 48, 48);
+    color: white;
+    transform: scale(1.05);
+
+}

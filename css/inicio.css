@@ -1,0 +1,60 @@
+
+
+.inner_carousel{
+    margin: 0px -10px;
+      
+}
+
+.carousel_img{
+    height: 400px;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.carousel_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+
+}
+
+
+.carousel_slide::before{
+    position: absolute;
+    content:'';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(57,49,49,0.5);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.banner_link{
+    text-decoration: none;
+}
+
+.banner_text{
+    text-decoration: none;
+    line-height: 1.2;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.banner_titulo{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner_desc{
+    font-size: 30px;
+}
+
+
+.lista{
+    
+    list-style-position: inside;
+}
+

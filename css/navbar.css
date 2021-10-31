@@ -1,0 +1,216 @@
+
+
+a{
+    text-decoration: none;
+}
+.custom_toggler{
+    border-color: #809fce;
+    
+    
+}
+
+.navbar-toggler-icon{
+    
+        display: inline-block;
+        content: "";
+        vertical-align: -.125em;
+        background-image: url(../img/list.svg);
+        color: #4A648A ;
+        background-repeat: no-repeat;
+        background-size: 2.5rem 2.5rem;
+    
+}
+
+
+.logo_escuela{
+    width: 6%;
+}
+
+
+.navbar{
+    font-family:'Bitter', serif;
+    background-color: rgba(231, 232, 243, 0.76);
+    
+}
+
+
+.navbar_logo_texto{
+    color: black;
+    animation: nombreAnimacion 4s 
+}
+
+@keyframes nombreAnimacion {
+
+    0%{
+        color: rgba(0, 0, 0, 0.0);
+    }
+    30%{
+        color: rgba(0, 0, 0, 0.1);
+    }
+
+    50%{
+        color: rgba(0, 0, 0,0.3);
+    }
+    75%{
+        
+        color: rgba(0, 0, 0,0.5);
+    }
+    100%{
+        color: rgba(0, 0, 0, 1);
+    }
+    
+}
+
+.navbar_logo_texto:hover{
+    
+    color: #4A648A;
+}
+
+
+.nav_opcion{
+    
+    display: block;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    padding: 0;
+    transition: 0.15s;
+    border-radius: 5px;
+   
+}
+
+.nav_opcion:hover{
+    background-color: white;
+    color: #4A648A
+}
+
+.navbar_scroll{
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index:99;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition-duration: 0.8s;
+}
+
+
+.nav_perfil{
+    color: black;
+}
+
+
+    
+.navbar_scroll .navbar{
+    background-color: rgba(229, 230, 235, 0.4);
+}
+
+.dropdown_link:focus{
+    background-color: white;
+    color: #4A648A;
+}
+
+.dropdown_menu{
+
+    background-color: rgb(228, 230, 238);
+
+}
+
+.dropdown_item{
+    background-color: rgb(218, 220, 228);
+}
+.dropdown_item:hover{
+
+    background-color: white;
+
+}
+
+/* Navbar profesor */
+
+.div_nav{
+    /*background-color: #264068cb; */
+    background-color: rgba(235, 235, 235, 0.8);
+    color:black;
+    box-shadow: 2px 5px 10px #111c2e;
+
+}
+
+
+.nav_profesor{
+    /* border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 10px; */
+    font-family:'Bitter', serif;
+    background-color: transparent;
+ 
+    
+}
+
+
+
+@media screen and (min-width: 767px){
+    .div_nav{
+        min-height: 100vh;
+    }
+   
+}
+
+@media screen and (max-width: 767px) {
+    .nav_profesor{
+        border-radius: 0px;
+    }
+
+}
+
+
+@media only screen 
+    and (min-width: 765px)
+    and (max-width: 1020px) {
+    
+    .nav_perfil_texto{
+        font-size: 15px;
+    }
+}
+.ul_nav{
+    width: 98%;
+}
+
+.drop_button{
+    color: black;
+    background-color: transparent;
+    border-radius: 10px;
+    border-bottom: 1px solid gray;
+    
+}
+
+.drop_button:focus{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.drop_button:hover{
+    background-color: white;
+}
+
+.nav_opcion_profesor{
+    
+    display: block;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    padding: 0;
+    transition: 0.15s;
+    border-radius: 5px;
+   
+   
+}
+
+.nav_opcion_profesor:hover{
+    background-color: white;
+    color: #4A648A
+}
+
+.activa{
+    background-color: white;
+}
+

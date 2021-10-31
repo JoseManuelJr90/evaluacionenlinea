@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(211, 211, 211);
+    font-family:'Libre Baskerville','Bitter', serif;
+    color:black;
+    font-size: 13px;
+}
+
+
+
+.form_container_login{
+    max-width: 700px;
+    min-height: 440px;
+    background-color: rgb(243, 243, 243);
+    margin-top: 30px;
+    box-shadow: 0px 7px 15px #4A648A;
+    
+}
+.form_login_admin{
+    max-width: 700px;
+    min-height: 400px;
+    background-color: rgb(243, 243, 243);
+    margin-top: 30px;
+    box-shadow: 0px 7px 15px #4A648A;
+}
+
+
+
+.form_container_registro{
+    max-width: 700px;
+    min-height: 500px;
+    background-color: rgb(243, 243, 243);
+    margin-top: 30px;
+    box-shadow: 0px 7px 15px #4A648A;
+    
+}
+
+.container_msj{
+    margin-top: -25px;
+    padding-top: 0;
+    max-height: 60px;
+    margin-bottom: -15px;
+    margin-left: -25px;
+    margin-right:-25px;
+
+}
+
+.input_text{
+    font-size: 13px;
+}
+
+.boton{
+    font-size: 15px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.486);
+}
+
+.boton_registrarse{
+    font-size: 15px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.486);
+    transition: 0.3s;
+}
+
+.boton_registrarse:hover{
+    transform: scale(1.2);
+    color: rgb(40, 115, 255);
+}
+
+
+.btn_usuario{
+    font-size: 13px;
+    border: none;
+    border-radius: 20px;
+    box-shadow:  0px 1px 10px rgba(0, 0, 0, 0.438);
+    color: black;
+    transition: 0.6s;
+}
+
+input[type="radio"]:checked ~ .btn_usuario{
+    transform: scale(1.1);
+    background-color: rgba(40, 115, 255, 0.8);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+}
+
+.btn_sesion{
+    margin-left: auto;
+    margin-right: 60px;
+    
+}
+

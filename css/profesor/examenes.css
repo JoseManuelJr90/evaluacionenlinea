@@ -1,0 +1,89 @@
+
+
+
+
+
+h1,h2,h3,h4,h5, button{
+    font-family: 'Bitter', serif;
+}
+
+
+
+.pruebas{
+    box-shadow: 0px 7px 15px #4A648A;
+}
+
+
+
+.accordion-body{
+    background-color: #eff1f5;
+}
+
+.btn_realizar{
+    color: #274f8b;
+    text-shadow: 5px 5px 10px rgb(107, 138, 167);
+    transition: 0.3s;
+}
+
+.btn_realizar:hover{
+    transform: scale(1.1);
+}
+
+
+.btn_inscribir {
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 17%;
+    transition: 0.3s;
+}
+.btn_inscribir a{
+    border: none;
+    font-size: 22px;
+    color: #274f8b;
+    text-shadow: 5px 5px 10px rgb(107, 138, 167);
+    transition: 0.3s;
+}
+
+.btn_inscribir a:hover{
+    font-size: 23px;
+    color:black ;
+}
+
+
+
+
+
+
+.barra_buscar{
+    border: 1px solid grey;
+    border-radius: 10px;
+    
+}
+
+.barra_buscar:focus{
+    border: 1px solid #274f8b;
+    border-radius: 10px;
+}
+
+.btn_inscribirse{
+    margin-top: -7px;
+    color: #274f8b;
+    text-shadow: 5px 5px 10px rgb(107, 138, 167);
+    transition: 0.3s;
+}
+
+.btn_inscribirse:hover{
+    transform: scale(1.1);
+}
+
+.cuadro_modal{
+
+    background-color: #a1a3a78c;
+    color: white;
+    box-shadow: 0px 2px 20px rgba(58, 58, 58, 0.747);
+    
+
+}
+

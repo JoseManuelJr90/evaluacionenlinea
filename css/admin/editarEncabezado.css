@@ -1,0 +1,40 @@
+
+*{
+    top:0;
+    left: 0;
+}
+
+body{
+    font-family:'Bitter', serif;
+}
+
+.container_encabezado{
+   
+    top: 50px;
+}
+
+.editar_encabezado{
+    
+    height: fit-content;
+  
+
+}
+
+.editar_logo_escuela{
+    margin: 0 auto;
+    width: auto;
+    height: 150px;
+}
+
+.label_input, .label_color, .nombre_archivo{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+
+.label_input:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px #264068;
+}

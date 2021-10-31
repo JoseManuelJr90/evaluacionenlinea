@@ -1,0 +1,45 @@
+
+body{
+    background-color: rgb(235, 235, 235);
+    font-family:'Bitter', serif;
+    color:rgb(78, 78, 75);
+    font-size: 16px;
+}
+
+
+h1,h2,h3,h4,h5, button{
+    font-family: 'Bitter', serif;
+}
+
+
+
+#tabla_registros{
+    border-bottom: transparent;
+    box-shadow: 0px 5px 15px #4A648A;
+    
+
+}
+
+
+.registros .boton_buscar{
+    background-color: #4A648A;
+    color: white
+}
+
+.registros .boton_buscar:hover{
+    background-color: #364b69;
+    color:white;
+}
+
+.registros .table .table_head{
+    background-color: #4a6386d5;
+    color: white;
+    font-size: 15px;
+    border-bottom: solid black;
+   
+}
+
+
+.registros_renglones{
+    border-bottom: transparent;
+}

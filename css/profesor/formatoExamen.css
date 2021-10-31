@@ -1,0 +1,191 @@
+body{
+    background-color: rgb(243, 243, 243);
+    font-family:'Bitter', serif;
+    color:rgb(78, 78, 75);
+    font-size: 16px;
+}
+
+.nav_texto{
+    border: 1px solid grey;
+    padding: 10px 10px;
+    
+}
+.nav_centro{
+    background-color: #4a648a5b ;
+}
+
+
+
+.navbar_scroll{
+    padding: 0px 10px;
+    position: fixed;
+    font-weight: 600;
+    bottom: 0;
+    z-index:99;
+    background-color: rgba(229, 230, 235, 0.3);
+    transition-duration: 0.6s;
+}
+
+.nav_texto_scroll{
+    color: transparent;
+    background-color: transparent;
+    border: transparent;
+
+}
+
+.nav_border_scroll{
+    border:transparent;
+}
+
+.div_preguntas{
+    max-height: 400px ;
+    padding: 0;
+    border: 1px solid rgba(107, 107, 107, 0.596);
+    border-radius: 20px;
+    
+}
+.div_preguntas div input  {
+    height: 30px;
+    font-size: 16px;
+    
+}
+.div_preguntas .input-group-text{
+    height: 30px;
+    font-size: 16px;
+}
+ .col-form-label{
+    
+    font-size: 18px;
+}
+
+
+
+.numero_pregunta{
+    max-width: 50px;
+    font-weight: 600;
+    font-size: 20px;
+} 
+
+.div_respuesta_correcta{
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: 110px;
+    font-size: 16px;
+}
+
+.input_correcta select{
+    padding-top: 1px;
+    max-width: 200px;
+    height: 30px;
+}
+
+.div_respuesta_correcta_agregar{
+    max-width: 200px;
+    margin-right: auto;
+    margin-left: 30px;
+    font-size: 14px;
+    
+   
+}
+
+.input_correcta_agregar select{
+    padding-top: 1px;
+    max-width: 100px;
+    height: 30px;
+}
+
+@media (max-width: 975px) {
+    .div_respuesta_correcta{
+        
+        margin-right: auto;
+        margin-left: 40px;
+
+    }
+
+    .input_correcta select{
+        padding-top: 1px;
+        max-width: 100px;
+        height: 30px;
+    }
+}
+
+.btn_eliminar{
+    width: 50px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 30px;
+    font-size: 25px;
+    
+} 
+
+@media only screen and (max-width : 537px){
+    .btn_eliminar{
+        margin-top: -60px !important;
+       
+    }
+
+
+}
+.btn_registrar{
+    width: fit-content;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: 20px;
+    transition: 0.3s;
+    
+}
+
+.btn_registrar:hover{
+    transform: scale(1.1);
+}
+
+
+.btn_agregar {
+    width: fit-content;
+    transition: 0.3s;
+    margin: -20px auto 50px ;
+}
+.btn_agregar button{
+    text-decoration: none;
+    border: none;
+    font-size: 27px;
+    color: #274f8b;
+    text-shadow: 5px 5px 10px rgb(107, 138, 167);
+    transition: 0.3s;
+}
+
+.btn_agregar button:hover{
+    font-size: 30px;
+    color:black ;
+}
+
+
+.cuadro_modal{
+
+    background-color: #a1a3a763;
+    color: white;
+    box-shadow: 0px 2px 20px rgba(58, 58, 58, 0.747);
+    
+
+}
+
+
+.cuadro_modal_agregar{
+    
+    background-color: #fcfcfcdc;
+    box-shadow: 0px 0px 20px rgba(71, 71, 71, 0.747);
+
+
+}
+
+
+.select_materia select{
+        
+        padding-top: 1px;
+        max-width: 100%;
+        height: 30px;
+    
+}
+
+

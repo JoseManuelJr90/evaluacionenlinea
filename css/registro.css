@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(204, 204, 204);
+    font-family:'Libre Baskerville','Bitter', serif;
+    color:black;
+    font-size: 13px;
+}
+
+
+
+.form_container{
+    max-width: 700px;
+    height: 500px;
+    background-color: rgb(243, 243, 243);
+    margin-top: 30px;
+    box-shadow: 0px 7px 15px #4A648A;
+    
+}
+
+
+.input_text{
+    font-size: 14px;
+}
+
+.boton{
+    font-size: 14px;
+}
+
+.boton_registrarse{
+
+    transition: 0.3s;
+}
+
+.boton_registrarse:hover{
+    transform: scale(1.2);
+    color: rgb(40, 115, 255);
+}
+
+

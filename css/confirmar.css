@@ -1,0 +1,69 @@
+body{
+    background-color: rgba(246, 246, 246, 0.849);
+    font-family:'Bitter', serif;
+    color:rgb(78, 78, 75);
+    font-size: 16px;
+}
+
+.cabecera{
+    background-color: #4A648A;
+    background-image: linear-gradient( 90deg, #4A648A, #a5b6cf 50%, #4A648A 90%)
+  
+}
+
+h1,h2,h3,h4,h5, button{
+    font-family: 'Bitter', serif;
+}
+
+
+.confirmar{
+    position: relative;
+    background-color: white;
+    box-shadow: 0px 10px 25px #4A648A;
+    font-size: 18px;
+    animation: animacion_confirmar 0.6s     ;
+}
+
+@keyframes animacion_confirmar{
+    0%{
+        transform: scale(0.9);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+.confirmacion_texto{
+    font-size: 30px;
+    font-weight: 510;
+    color: white;
+
+}
+.confirmar_cuadro{
+    
+    border:  solid 1px grey;
+    
+}
+
+
+.confirmar_link{
+    font-size: 18px;
+    padding: 5px 0px;
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+    border: none;
+    background-color: transparent;
+}
+
+.confirmar_link:hover{
+    color: #4A648A;
+    transform: scale(1.08);
+}
+
+.confirmar_aviso{
+    color: white;
+    background-color: #4a648ac5
+}
+    
+    

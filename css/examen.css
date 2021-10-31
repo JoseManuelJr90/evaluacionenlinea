@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(243, 243, 243);
+    font-family:'Bitter', serif;
+    color:rgb(78, 78, 75);
+    font-size: 16px;
+}
+
+.nav_texto{
+    border: 1px solid grey;
+    padding: 10px 10px;
+    
+}
+.nav_centro{
+    background-color: #4a648a5b ;
+}
+
+
+
+.navbar_scroll{
+    padding: 0px 10px;
+    position: fixed;
+    font-weight: 600;
+    bottom: 0;
+    z-index:99;
+    background-color: rgba(229, 230, 235, 0.3);
+    transition-duration: 0.6s;
+}
+
+.nav_texto_scroll{
+    color: transparent;
+    background-color: transparent;
+    border: transparent;
+
+}
+
+.nav_border_scroll{
+    border:transparent;
+}
+
+
+
+.examen{
+    border: solid 1px rgba(121, 121, 121, 0.6);
+    border-radius: 8px ;
+    background-color: white;
+}
+
+.examen .tabla_preguntas{
+    border-radius: 5px;
+    border: solid 1px grey;
+}
+
+.tabla_encabezado{
+    background-color: #4a648a5b;
+   
+}
+
+.btn_examen{
+    width: fit-content;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: 20px;
+    transition: 0.3s;
+   
+}
+
+.btn_examen:hover{
+    transform: scale(1.1);
+}
+
+
+
+.campo{
+    
+    transition: 0.3s;
+}
+
+.campo:hover{
+    transform: scale(1.01);
+    font-weight: 600;
+    
+}
+
+.respuesta_check:hover{
+    cursor: pointer;
+
+}
+
+
+.respuesta_correcta{
+    background-color: rgba(67, 238, 144, 0.3);
+}
+
+.respuesta_incorrecta{
+    background-color: rgba(226, 72, 72, 0.3);
+}
+
+
+   
+
