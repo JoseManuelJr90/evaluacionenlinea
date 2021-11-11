@@ -7,9 +7,9 @@
 
  class DBProyectoEvaluacion{
     private $host = 'localhost';
-    private $dbname = 'proyectoevaluacion'; //local: proyectoevaluacion, 00web id17803113_adminevaluacion hostinger: u842468539_evaluacionenli
-    private $username = 'adminEvaluacion'; //local adminEvaluacion, 000web: id17803113_adminevaluacion, hostinger: u842468539_adminEvaluacio
-    private $password = 'jAdminEvaluacion'; //local: jAdminEvaluacion, 000web: jAdminEvaluacion4150$
+    private $dbname = ''; 
+    private $username = ''; 
+    private $password = ''; 
     private $conn;
 
     public function connect(){
